@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -33,21 +34,27 @@
                     </li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader_logo"><img src="icons/logo.png" alt="logo" /></a>
                         <div class="subheader_official">Офіційний партнер Uber</div>
                     </div>
 
-                    <div class="col-md-2 offset-md-2">
+                    <div class="small-hidden col-6 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader_call">Телефонуйте кожного дня</div>
                         <a href="tel: 380988060937" class="subheader_phone">098 806 09 37</a>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <a href="tel: 380988060937" class="subheader_phone small-visible">098 806 09 37</a>
                         <button class="subheader_btn">Замовити дзвінок</button>
                     </div>
                 </div>
@@ -57,10 +64,10 @@
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                     <h1 class="promo_header">КОМПАНІЯ UBER PARTNERS!</h1>
                     <h2 class="promo_subheader">ЗАПРОШУЄМО ВОДІЇВ! НА СВОЇМ АВТО!</h2>
-                    <div class="promo_description">
+                    <div class="promo_descr">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
                         sed mollitia vero, sunt unde incidunt eligendi recusandae rerum,
                         similique perspiciatis, officia odio earum aspernatur. Aliquid
@@ -222,7 +229,7 @@
                 мобільний телефон</div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_1">
                         <div class="mobile_item_subtitle">оформлення замовлення одним дотиком</div>
                         <div class="mobile_item_plus">
@@ -230,31 +237,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_2">
                         <div class="mobile_item_subtitle">Надійна подача</div>
                         <div class="mobile_item_plus"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_3">
                         <div class="mobile_item_subtitle">прозорі ціни</div>
                         <div class="mobile_item_plus"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_4">
                         <div class="mobile_item_subtitle">безготівкова оплата</div>
                         <div class="mobile_item_plus"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_5">
                         <div class="mobile_item_subtitle">зворотний зв'язок</div>
                         <div class="mobile_item_plus"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="mobile_item mobile_item_6">
                         <div class="mobile_item_subtitle">розділити вартість поїздки</div>
                         <div class="mobile_item_plus"></div>
@@ -350,8 +357,57 @@
             <div class="subtitle subtitle_white">
                 Ми у вашому місті і по всьому світу
             </div>
+            <a href="#" class="map_link">глянути всі міста</a>
         </div>
     </section>
+
+    <footer>
+        <div class="footer_line"></div>
+        <div class="footer_wrapper">
+            <div>
+                <div class="footer_social">
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer_links">
+                    <div class="footer_links_main">
+                        <a href="#">на головну</a>
+                        <a href="#">міста</a>
+                        <a href="#">для водіїв</a>
+                    </div>
+                    <div class="footer_links_submain">
+                        <a href="#">центр підтримки</a>
+                        <a href="#">вакансії</a>
+                        <a href="#">розробники</a>
+                        <a href="#">блог</a>
+                        <a href="#">про нас</a>
+                    </div>
+                    <a href="#" class="footer_links_lang">Українська</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer_mobile">
+                    <a href="#"><img src="img/app_store.png" alt=""></a>
+                    <a href="#"><img src="img/google_play.png" alt=""></a>
+                    <a href="#"><img src="img/windows_store.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
